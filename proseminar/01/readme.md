@@ -1,4 +1,4 @@
-# Assignment 1, due October 16th 2019
+# Assignment 1, due October 19th 2020
 
 The goal of this assignment is to get you acquainted with working on a distributed memory cluster as well as obtaining, illustrating, and interpreting measurement data.
 
