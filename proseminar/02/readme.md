@@ -1,4 +1,4 @@
-# Assignment 2, due October 26th 2020
+# Assignment 2, due November 9th 2020
 
 The goal of this assignment is to implement some basic MPI applications.
 
