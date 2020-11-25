@@ -13,7 +13,7 @@ N-body simulations form a large class of scientific applications, as they are us
 - velocity, and
 - mass.
 
-For each timestep (you can assume e.g. `dt = 0.05`), particles must be moved by first computing the force excerted on them according to the [Newtonian equation for gravity](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation) - since we are working in two-dimensional space, are working with the altered equation `force = G * (mass_1 * mass_2) / radius`, where `G` is the gravitational constant (and can be assumed as `G = 1` for simplicity). Second, using the computed force on a particle, its position and velocity can be updated via `velocity = velocity + force / mass` and `position = position + velocity * dt`.
+For each timestep (you can assume e.g. `dt = 0.05`), particles must be moved by first computing the force excerted on them according to the [Newtonian equation for gravity](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation) - since we are working in two-dimensional space, are working with the altered equation `force = G * (mass_1 * mass_2) / pow(radius^2 + EPS, 3.0/2.0)`, where `G` is the gravitational constant (and can be assumed as `G = 1` for simplicity) and `EPS` is a correction term for extremely short distances and can be set to e.g. `EPS = 0.0001`. Second, using the computed force on a particle, its position and velocity can be updated via `velocity = velocity + force / mass * dt` and `position = position + velocity * dt`.
 
 ### Tasks
 
