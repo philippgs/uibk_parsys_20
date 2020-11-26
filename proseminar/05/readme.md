@@ -22,7 +22,7 @@ For each timestep (you can assume e.g. `dt = 0.05`), particles must be moved by 
 	2. provide a function for computing forces and moving particles
 	3. move particles in a time loop for a given number of steps
 - Measure the execution time for various problem sizes. What can you observe?
-- Add your best sequential wall time for 10000 particles and 1000 time steps into the comparison spreadsheet linked on Discord.
+- Add your best sequential wall time for 10000 particles and 100 time steps into the comparison spreadsheet linked on Discord.
 
 ## Exercise 2
 
