@@ -12,7 +12,7 @@ The file [real.tar.gz](real.tar.gz) contains a realistic implementation of a (si
 
 - Familiarize yourself with the code. You are not required to look at every source line, but rather profile the code using the means discussed in the lecture and get a grasp on its computational hotspots and performance characteristics (computation-heavy, memory-heavy, etc.).
 - Investigate any loops that carry larger workloads and determine if and how they can be parallelized. Parallelize them with OpenMP. Ensure that any code modification does not violate program correctness with respect to its output.
-- Benchmark the original, sequential program and your parallelized version for 1, 2, 4 and 8 threads on LCC2 and enter your results into the comparison spreadsheet linked on Discord..
+- Benchmark the original, sequential program and your parallelized version for 1, 2, 4 and 8 threads on LCC2 and enter your results into the comparison spreadsheet linked on Discord.
 
 ## General Notes
 
